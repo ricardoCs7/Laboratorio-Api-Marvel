@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Comics</title>
+    <link rel="shortcut icon" href="https://www.marvel.com/static/images/favicon/android-chrome-icon-194.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdsAAABqCAMAAADDRQtiAAAAwFBMVEX////lCxQAAADkAABzc3MHBwf09PRFRUWnp6flBhH50tP519jmAAztcXT4y8yrq6v2vr/V1dXtbXDq6urAwMBaWlqUlJT0ra87OzthYWHx8fHqWV3vhYfwlZbHx8egoKB/f3+Ojo5SUlLxnJ22trbnKzBoaGjwjI7h4eH+8/MpKSkwMDDrYmXtd3n73+DzpKb1trfnGyPoOD3ugILpQkb86OnpSEx7e3vpRUkbGxs1NTXqU1fmGB8fHx/qT1LmJizJJ4NXAAAQlklEQVR4nO2daUPiPBCAq0VcakVZBTxREQ888Fr3cnf9///q7ZVkrqTFt7DQ7XySXK15mnSSmUm9lX9H/MADMlpdq7h4f7vD5yiUbdWlZltdqdlWV/5dtv+A/O0On6PUbKsrNdvqSs22ulKzra7UbKsrNdvqSs22uvJPs/WZhCA35NmuqqCukOm3HBd235MsoauRHLYH14Pd0Wi027mea9cXlJ1OfHPu25P/A/i/9zeITL4YQOHzhGY/6g70j1nm5FnV9e9xZtB+PL5bAfD9TVRgGz4zh6xhUSZ//DtYcvLA4cpsdxtwn26vp3unOdx3yvAgqtxN/+7uojZ7WfIwaazZxRUvG2cngwN6H99Us02Q2Nzqom3E9d4O/w9Gl5Yi8H9vs2ovpof8TZa74bu6bVPl+ldSn07OnxRd/zPOgmyPpbqCHJL72y7GVthV7mZ9c5C3XxuV+6T+3kKt6selE/9qirVvzvAw3FMZgO2pUO+SPBWf7EXcbMHT75+z3MCwfeXddu5mG8n2czo1h884/R1M531LXSofYzsUu32U5M2YbST7cBCuM7bXa3I1OEc098QigyTTzbYN2G6zXMBW6O3tXLae10/eiy1S/RBctaj+8yG2t5ZOT0jNni2qxtheW2uNdKWmBX/K3832FfTyhOVqtnTgJTIpwNYbf4lL+WOUCN8EwoQgykfYdi0dkzKZB9vVM12HsnXV0rO5PGqzm8th6xl9Vhiami19YWZ1C7D1vHufPTfmTUBHtF0+wHbX3nm33pzYrp6oOpRtw1HpNqsjvGuVDL1ctlrZDS94pmErajwrrSJsvSufzveGizghiPIBtr8dvbc7L7Z6DBK2O85K2SvXVaSTy/azxnfHMw3bR6m73/xCbKMpmGhME/MeP3RXNTI92w7oiL3G6enp/g+T0J0b2/WsDmF7BorcDLuRwPm3m5SBE8969B98gy+ZRi7bY9fQNGw3pO5+Kcg24nKEfo8NW1xVvIxqY1q2pve6alkxMF0TIemdaNEryEuT1mtOy/Y22YMYfTpbXwXSSesQtjcGktKmmz14e/Ayqw2lgO3CIjlst11D07Ad80zz2sxl64VkUlCz+Yr/gNLF6SGV6dn+xIMgETNWO6jslsxwSrbrusDBN8OgkSZhtuZGzkC7hlyyyPlBmojFaNc7eWwnrqGp2LZWeJ5nFlD5bAPSwPdQviVHQ9OzBZ1gRA8NDEuz/YSv+lG2aNMkTcBs9QvjB2pYT7qfYLtwu8Psdwzy2I5dQ1OxDf/wPM8soPLZevf4p9nSwgo03xrTMjVbPTJ+wlT92PdQa+WzNU9RNkVgthr9GWoYJet7HcIi+qnYymOrpsfWk5Cn2PovQqanF0EF2L7iJ+dYfqLGDs1qara6Zy5RPZX6DaXOgK2ZN9K6mK2lYQ0unoW1dnAKi2gF+ySXbabs+m9Cnmb7IGRGchEWZUtEGSFC/EQFgq6uZGq2HbFnPNh5RmbBVuty6dDEbPWoxkYIDW7fA2zR2NZX6+WyPcrYHgl5mq1UMZI7X2Lbv7jn25dyw2Sy72O2k+NzLQ/PS8dWo9lPfk7HtuuVwLaf8ZH27DVbvh2ZyJXMNjauuumO5cn+CrPdRvbbpWO7g5P/AttM2RX37DVbIS+WRwvb2M7vtt1lW53E9nSItzYxvqVjS5L/AttM2RVXsBlbaTsS5gts84x36k2Nh/dTNdnuJT//AttU2ZVXsIqdTX0dO9i2nBYe9abGk71fsy2XbWItCL9LWfK4BNJqWdmu+PeWSrFcSbPFZJ5s8cpoGdme5bNN9hHkFWwg6FmIRmpFktla39KmTCtEidvzYNvLZIRSl4mt+g9y96Uy1xh5BavYwnqojXvfxdahK6caXPiF3Mkc2MqyRGyB5LJNOknOUmzhm7MPf5w72Tq2NFINjuD6XLMtmW1iLZAVnyDTimDaMbQpbDvZOnYQUy2MLJQuZsMW7y7KUlG2saJscW1J2WLfiE04005cbMN3yy0ltxVrYcSu6M+GLdaaZFlstqeWu85n+x7aXFsCYeZ8Q4qVi63TFyrZxsZ2xddy2epuQnYgiywk2w78IUk+20Nf8juPJRBmzl8IZDr8PsD2nr8J2uWyNdZv5uLPZSHZGjO85a7z2ca+atzvPJaMLZo5ySj2HWzxCgdL4rPhk6RS2RobGzbVirKQbKmVkEk+2z7zQ1SSsYUz59hH65YXB1unD2OMhuxl3pfM1jiO5Yd4LSZb4x0nRAl5RdhGBC2Gnowt3K6Y+C1You9gS0jhDetYCyOuld/DctkC595cuIvJ1njzrYlw89lGCpHlzZiwxa/N6KU4Rj8dbPFEP0bPT6yFkXp+q1y20EcV9yCXxWQLo0oGwl3ns/Wo+4OWhC22n/d9pAC9uthi77oxnvd9aiqKHzHKFsnUvucwtBGbBpgsJlsUqnbK77oA26+S33ksCVu853/l41bsbKlp6RUP4+eQ3E/A2CL5QFwBci7/4ZyXF5QtCge7ZfNyAbYvNkN6wLeaI4UHqc1xuCWpruxAZIs6wOA++2QJ1C+drSGWyIlnlwVlC5wl+U0UYvsgh4QotqjWV+JRERtiRbbhL9JYH2vFx/Qtf1Q+WxK7jCLWsSwqW28f/Qdki60A27YcEqLYIh3oqYXn6GMbW9bR9z4pRd7yhzNgS4PlJIUkkYVlS+JM11A4RAG2r3JIiGKLkvwW1q0eZbYtPhWEeAoOfGJLeApnwJZMatad2cVl64Hok1jgRkwBtp5tAylmi3f8I2UWJ2xIbEOfX2qDpL362B8gWRSVzxaGd8VyI+8CLDBbemTHntlCLcLW5vIdsA2GKAWvd8ec7YN/IWxhRkoYVq7I740ZsfUO1nHfiPt3i8zW29FRa6RKEbY2B4mAbTDEPYpncL/FwjulGX7skxe1d4E3OrdnxZbNy5LNb6HZsvNsTrPkImxtErANhniLH3fh17DQOUKRzkU8aA6xknY8O7Yoylr3NZIFZ0vfLFnwl52ttIeMFeaAkYz9E/F42/SLsI2GLbULHWEl7W6GbOlS4oblLzpbrzlE/0F6JTtbaVGL0wI2AycE0Nv0vBDbz9xc+4DZxi6Ts2NLFJIhzV54tp53gv6DJMbIzlYigtOY5uTFZwTisLDtImwzvyp0/TY2AcZRJDNkSxQSatJdArbeNTqbJb4hO9t7rvO84p3hgL0kYz8LvC6dFGA7TsN/sGI8QSBTo8MM2RKFhCyFloEt2YlpOtny3ag2Y0u6OzEMkQGXz1ZF/yBFeYyu1Z49W6SQnOKs5WCLDq7pOdnyF26fs0XcXrlB13vPi9nzvihHDDwHIJXsQWAbvB1quXv6/2y9JjgDEOcsCVtvxxyjtOZi+8J9w184W0SgzR0xvDffzfb1QlEgDwVq5V5gi+y3rRLYwgMe8dbysrD1mgbutYst9w3/znQpbEZIA27xwvQohy08DtQe2pecXFOu34Uk5jS2mZ9lMhu2wKQ7crA94tvIIWeLRte5oO/2c9jCIyPtmydJodmzNQrVEsTxyaKX6q44viPmJTX2KdsWtsJmsV1I323nsb3TFGxnouj4oNmz1foU5rBEbPVKveFkSxXlgLENv6KENyGO4DWPLTgZ3xqSG8yLre7w3yh5idiCs5VcbKmi3GdsSVzue6rXYLsRZTtuY3XbnN5IFGV05Tmx1f7cayh1idiCIi62VFE+4mzxLHp4lwgGfsFsfNjP1Zzjaw+3Piqf7cEgE7xNsURs9X9wIDbrZksV5T+cbd5JUV68V8z8LvCMcGwmZZui/FY+W238wRHyS8R2IJYpyJYOoxZnW+DI+SuBLXqxgs+V2BTlbFOyZlseW7yjPKZvzoDRl+SRs22hwBIvtBypC668UrONpUS2WPkIOFtLwAGSDcEXDo/3e8XBpihv1GxTKZEtPt+L7UIEtoADJHRV3GfeGpqDLbTvsWabSols8QGdL5ytdIInE4ktNx/FYgu3vqrZplIeW3IM6h9q0QmKfXXrWfJPJi2rW5B1s7uabSrlsSUqj8/15EJf3fosxBVge4L+IJD9yI0Ks/3fZ3V+hC22BIyZlT0o9tWtc4kt0oj158NkRXmsjmWtFNsDnDx3tjCFWeKjFK+IPAoxmmRfRH1dUVaU1QcxXPZben7yI/8W7oKx1TeQet7NnS18n/Y52yJLoGgFI7BtsSC9RGRFeVtm642NMJ8adsWFY6vrpoeXzZ0t3Bl+4WyLLIGo55MYx6cM9LKifG5hC+XjbDEWlVrMDmRJ12zTbxvLbDXME/wzYas9UvGThz6gIbM9MEWcbNHRujxCgLjGbb5fZLKCW8LhPxlb3JQy0Itv8M1ZsNVDAHlYkJegEhtb7XyGj93TB8gkdgiZrQlmSN13MFt9QRzxjY6Ck59Ojd9tv8V7gzyyp42XQO9+mAlZG2GDQhZbjS2/ykAvKsrPlu9bQ5mardzjGlYxvwvdvbcw1XyUyX4l4NiUhnRjtvo+sBu8PpkmfiD104nuVU/1br8LNIxeeUReGy+BgHMMHtA4+kT1tJQoK8pqv7lUtp7+LDCMR96DnWfExtZQhL5zmsANLgTYdgzaLBWzNY5b8O7M5ZJpWP+CZkrdsNNfykdJbYEtsiXA7yA7IOieJuG2WU1BUTYrpFLZmhggc4yJ8d4u5ucIvrNqKpjojfT0G8b2ejRcNZLNqORbiybfwN0xbpg7qMpvAxeeiJbD1gyjB86WmhJ0S9avU8SiehqP7WzelRTl9mzYgpNMGqNOJIMe+EiqJ5elbEEwwvrJ7mAwGJ2ZL2BmipAZbaJkLRG2IEZgmDS8+wmcmZROCCC49Ntu8h/AL6u6/JMTtmYYvXC22ARo/J7cx3BmPU0oZgZ6qebDbNg6v29LgnCtbDuuRjJsbrZKESJsB646mYZl/yL9aqJtudkCD6Yv/DQhLFdgJ8h2QgboaVJGGegFRfllNmydX/0mp01Z2RokgmTKs5PtkDWUnZZz46qVlek6iuzksQXDKFZonGw3IVvHV4gt3ytQ+4pcUTaWhHLZOvqcnoVuZ+saO/nXActoytY1I6i7cHy4PH6u3GzNMEoD6VxsjUsb4yb1NP12SWagF47zNV86LpctCo1CcktbsLOFR34SUUqQg+2eOdKKsqVHNQAxTo5btiKJ2pbHVqW1c9lqBDkF9fnJ2G8921jkiMAXyktmS494UfKTHSLmYEuCmo1oxdnOFi60GFv0yXkZrfXieXHzKVs1jB7y2I592JTjw059/fpEr9asPvdR3pgdW68jvdVOeQsutt5gTWhk3SxLbGzPkO8pZ2uZV8hOlXTx7JmBQPD/nuhGusdeEGlBJpAt2XVCovVp4tv+lszpXFEGcQfO71bbH6dHK9to6FJl6FQ6YUpPvPKhj6M90kgXLo8Ftjf7Jx3Shl67wklj65ZUXOvxOYUcQWSeGQCk1QqhpFOs/pkWCe0CpuSomrXkLz13t6K/jfzKfoRPkai/ScOOy7dWQt8q4rOru3735Ntldzgc7jfOtiynsTYPMrEd+agb6V6entCjAw+wyG3oS5C6u71G0vDwsnE2km+vqcrs4yIQSAsJThSLSOWnKCgnuxp2Npp3wWJeIhWSlX9HarbVlZptdaVmW12p2VZXarbVlZptdaVmW12p2VZXiA/rZaPi8u+ytdiAKiQ12+pKzba68h9mPsj2WiogTgAAAABJRU5ErkJggg=="
+                alt="logo" style="width:190px;">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item  ">
+                    <a class="nav-link " href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link " href="comics.html">Comics</a>
+                </li>
+             
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input id="buscador" class="form-control mr-sm-2" type="text" placeholder="Ingrese búsqueda">
+                <button onclick="getByName()" class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container" id="gif">
+        <img src="https://media.giphy.com/media/DgJutSXhzS4bC/giphy.gif" id="giphy" >
+    </div>
+
+
+    <button type="button" onclick="getComics()" class="btn btn-primary">Buscar Comics</button>
+
+    <div class="container">
+        <div id="resultados"></div>
+    </div>
+
+
+
+    <script>
+
+        var MD5 = function (d) { result = M(V(Y(X(d), 8 * d.length))); return result.toLowerCase() }; function M(d) { for (var _, m = "0123456789ABCDEF", f = "", r = 0; r < d.length; r++)_ = d.charCodeAt(r), f += m.charAt(_ >>> 4 & 15) + m.charAt(15 & _); return f } function X(d) { for (var _ = Array(d.length >> 2), m = 0; m < _.length; m++)_[m] = 0; for (m = 0; m < 8 * d.length; m += 8)_[m >> 5] |= (255 & d.charCodeAt(m / 8)) << m % 32; return _ } function V(d) { for (var _ = "", m = 0; m < 32 * d.length; m += 8)_ += String.fromCharCode(d[m >> 5] >>> m % 32 & 255); return _ } function Y(d, _) { d[_ >> 5] |= 128 << _ % 32, d[14 + (_ + 64 >>> 9 << 4)] = _; for (var m = 1732584193, f = -271733879, r = -1732584194, i = 271733878, n = 0; n < d.length; n += 16) { var h = m, t = f, g = r, e = i; f = md5_ii(f = md5_ii(f = md5_ii(f = md5_ii(f = md5_hh(f = md5_hh(f = md5_hh(f = md5_hh(f = md5_gg(f = md5_gg(f = md5_gg(f = md5_gg(f = md5_ff(f = md5_ff(f = md5_ff(f = md5_ff(f, r = md5_ff(r, i = md5_ff(i, m = md5_ff(m, f, r, i, d[n + 0], 7, -680876936), f, r, d[n + 1], 12, -389564586), m, f, d[n + 2], 17, 606105819), i, m, d[n + 3], 22, -1044525330), r = md5_ff(r, i = md5_ff(i, m = md5_ff(m, f, r, i, d[n + 4], 7, -176418897), f, r, d[n + 5], 12, 1200080426), m, f, d[n + 6], 17, -1473231341), i, m, d[n + 7], 22, -45705983), r = md5_ff(r, i = md5_ff(i, m = md5_ff(m, f, r, i, d[n + 8], 7, 1770035416), f, r, d[n + 9], 12, -1958414417), m, f, d[n + 10], 17, -42063), i, m, d[n + 11], 22, -1990404162), r = md5_ff(r, i = md5_ff(i, m = md5_ff(m, f, r, i, d[n + 12], 7, 1804603682), f, r, d[n + 13], 12, -40341101), m, f, d[n + 14], 17, -1502002290), i, m, d[n + 15], 22, 1236535329), r = md5_gg(r, i = md5_gg(i, m = md5_gg(m, f, r, i, d[n + 1], 5, -165796510), f, r, d[n + 6], 9, -1069501632), m, f, d[n + 11], 14, 643717713), i, m, d[n + 0], 20, -373897302), r = md5_gg(r, i = md5_gg(i, m = md5_gg(m, f, r, i, d[n + 5], 5, -701558691), f, r, d[n + 10], 9, 38016083), m, f, d[n + 15], 14, -660478335), i, m, d[n + 4], 20, -405537848), r = md5_gg(r, i = md5_gg(i, m = md5_gg(m, f, r, i, d[n + 9], 5, 568446438), f, r, d[n + 14], 9, -1019803690), m, f, d[n + 3], 14, -187363961), i, m, d[n + 8], 20, 1163531501), r = md5_gg(r, i = md5_gg(i, m = md5_gg(m, f, r, i, d[n + 13], 5, -1444681467), f, r, d[n + 2], 9, -51403784), m, f, d[n + 7], 14, 1735328473), i, m, d[n + 12], 20, -1926607734), r = md5_hh(r, i = md5_hh(i, m = md5_hh(m, f, r, i, d[n + 5], 4, -378558), f, r, d[n + 8], 11, -2022574463), m, f, d[n + 11], 16, 1839030562), i, m, d[n + 14], 23, -35309556), r = md5_hh(r, i = md5_hh(i, m = md5_hh(m, f, r, i, d[n + 1], 4, -1530992060), f, r, d[n + 4], 11, 1272893353), m, f, d[n + 7], 16, -155497632), i, m, d[n + 10], 23, -1094730640), r = md5_hh(r, i = md5_hh(i, m = md5_hh(m, f, r, i, d[n + 13], 4, 681279174), f, r, d[n + 0], 11, -358537222), m, f, d[n + 3], 16, -722521979), i, m, d[n + 6], 23, 76029189), r = md5_hh(r, i = md5_hh(i, m = md5_hh(m, f, r, i, d[n + 9], 4, -640364487), f, r, d[n + 12], 11, -421815835), m, f, d[n + 15], 16, 530742520), i, m, d[n + 2], 23, -995338651), r = md5_ii(r, i = md5_ii(i, m = md5_ii(m, f, r, i, d[n + 0], 6, -198630844), f, r, d[n + 7], 10, 1126891415), m, f, d[n + 14], 15, -1416354905), i, m, d[n + 5], 21, -57434055), r = md5_ii(r, i = md5_ii(i, m = md5_ii(m, f, r, i, d[n + 12], 6, 1700485571), f, r, d[n + 3], 10, -1894986606), m, f, d[n + 10], 15, -1051523), i, m, d[n + 1], 21, -2054922799), r = md5_ii(r, i = md5_ii(i, m = md5_ii(m, f, r, i, d[n + 8], 6, 1873313359), f, r, d[n + 15], 10, -30611744), m, f, d[n + 6], 15, -1560198380), i, m, d[n + 13], 21, 1309151649), r = md5_ii(r, i = md5_ii(i, m = md5_ii(m, f, r, i, d[n + 4], 6, -145523070), f, r, d[n + 11], 10, -1120210379), m, f, d[n + 2], 15, 718787259), i, m, d[n + 9], 21, -343485551), m = safe_add(m, h), f = safe_add(f, t), r = safe_add(r, g), i = safe_add(i, e) } return Array(m, f, r, i) } function md5_cmn(d, _, m, f, r, i) { return safe_add(bit_rol(safe_add(safe_add(_, d), safe_add(f, i)), r), m) } function md5_ff(d, _, m, f, r, i, n) { return md5_cmn(_ & m | ~_ & f, d, _, r, i, n) } function md5_gg(d, _, m, f, r, i, n) { return md5_cmn(_ & f | m & ~f, d, _, r, i, n) } function md5_hh(d, _, m, f, r, i, n) { return md5_cmn(_ ^ m ^ f, d, _, r, i, n) } function md5_ii(d, _, m, f, r, i, n) { return md5_cmn(m ^ (_ | ~f), d, _, r, i, n) } function safe_add(d, _) { var m = (65535 & d) + (65535 & _); return (d >> 16) + (_ >> 16) + (m >> 16) << 16 | 65535 & m } function bit_rol(d, _) { return d << _ | d >>> 32 - _ }
+
+        var publicKey = "13214488292737a463bec9bc315b8826";
+        var privateKey = "0e6e3167a7ea12cf17152fa8d3f27a3b680f3f0a";
+        var timeStamp = Date.now();
+
+        var hash = MD5(timeStamp + privateKey + publicKey).toString();
+
+        function getComics() {
+
+            var url = "https://gateway.marvel.com:443/v1/public/comics?ts=" + + timeStamp + "&apikey=" + publicKey + "&hash=" + hash;
+
+
+            console.log("Realizando Consulta");
+
+            axios.get(url)
+                .then(function (response) {
+                    console.log(response.data.data.results);
+
+                    imprimirComics(response.data.data.results)
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+
+        }
+
+        function imprimirComics(arregloComics) {
+
+            htmlFinal = "";
+
+            for (var i = 0; i < arregloComics.length; i++) {
+                htmlFinal = htmlFinal + '<div class="row">';
+                htmlFinal += '<div class="col" >';
+                htmlFinal += '<h3 >' + arregloComics[i].title + '</h3>';
+                htmlFinal += '<p >' + arregloComics[i].description + '</p>';
+                htmlFinal += '<img id="marvel" src="' + arregloComics[i].thumbnail.path + '.' + arregloComics[i].thumbnail.extension + '">';
+                htmlFinal += '</div></div>';
+
+            }
+            document.getElementById("resultados").innerHTML = htmlFinal;
+        }
+
+    </script>
+
+
+
+    <!-- Optional JavaScript -->
+    <!--IMPORTANDO AXIOS.js remoto-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
